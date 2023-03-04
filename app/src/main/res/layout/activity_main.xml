@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:columnCount="3">
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_margin="5dp"
+            android:onClick="check"
+            />
+        <Button
+            android:id="@+id/button2"
+            android:onClick="check"
+            android:layout_margin="5dp"
+            />
+        <Button
+            android:id="@+id/button3"
+            android:onClick="check"
+            android:layout_margin="5dp"
+            />
+        <Button
+            android:id="@+id/button4"
+            android:onClick="check"
+            android:layout_margin="5dp"
+            />
+        <Button
+            android:id="@+id/button5"
+            android:layout_margin="5dp"
+            android:onClick="check"
+            />
+        <Button
+            android:id="@+id/button6"
+            android:layout_margin="5dp"
+            android:onClick="check"
+            />
+        <Button
+            android:id="@+id/button7"
+            android:layout_margin="5dp"
+            android:onClick="check"
+            />
+        <Button
+            android:id="@+id/button8"
+            android:layout_margin="5dp"
+            android:onClick="check"
+            />
+        <Button
+            android:id="@+id/button9"
+            android:layout_margin="5dp"
+            android:onClick="check"
+            />
+
+    </GridLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textFontWeight="42"
+        android:layout_marginTop="10dp"
+        android:text="created By Mohit Peshwani"
+        android:id="@+id/created"
+        />
+</LinearLayout>
